@@ -1,6 +1,9 @@
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
-import Destinations from './components/Destinations';
+import PopularDestinations from './components/Destinations';
+import Statistics from './components/Statistics';
+import CustomerReviews from './components/CustomerReviews';
+import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -8,7 +11,10 @@ function App() {
     <div className="font-sans">
       <Navbar />
       <HeroSection />
-      <Destinations />
+      <PopularDestinations />
+      <Statistics />
+      <CustomerReviews />
+      <ContactSection />
       <Footer />
     </div>
   );
